@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BTS</title>
+    <link rel="stylesheet" href="style2.css">
+
+    <script>
+        function myFunction() {
+            const navigationBar = document.getElementById("navigation-bar");
+            if (navigationBar.className === "navigation-bar") {
+                navigationBar.className += " responsive";
+            } else {
+                navigationBar.className = "navigation-bar";
+            }
+        }
+    </script> 
+</head>
+<body>
+<header id="header">
+    <h1> Pues aunque no quieras vas a conocer más sobre BTS </h1>
+    <p>Da clic en "Más sobre BTS"</p>
+    <p>Pero antes disfruta este bailecito ;)</p>
+    <p>Sube el volumen por favor</p>
+
+    <video width="1000" height="400" autoplay muted controls>
+        <source src="Video 3.mp4" type="video/mp4">
+        <source src="Video 3.mp4" type="video/ogg">
+        Tu navegador no es compatible
+    </video>
+    <P>«Deberías ser más desafiante, porque solo vives una vez. Deberías enfrentar lo que sea que quieras hacer cuando eres joven. 
+        Cuando seas viejo y pienses en el pasado, no será algo malo de recordar incluso si fallaste» - RM.</P>
+</header>
+
+<nav id="navigation-bar" class="navigation-bar">
+    <ul>
+        <li><a class="active" href="index.html">Inicio</a></li>
+        <li><a class="active" href="BTS.html">Más sobre BTS</a></li>
+        <li><a class="active" href="PAGINA3.html">No me interesa BTS</a></li>
+        <li class="menu__hamburger-icon">
+            <a href="javascript:void(0);" onclick="myFunction()">
+                <i class="lni lni-menu"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BTS</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <script>
+        function myFunction() {
+            const navigationBar = document.getElementById("navigation-bar");
+            if (navigationBar.className === "navigation-bar") {
+                navigationBar.className += " responsive";
+            } else {
+                navigationBar.className = "navigation-bar";
+            }
+        }
+    </script> 
+</head>
+<body>
+<header id="header">
+    <h1> WE ARE BTS </h1>
+    <p>BIENVENIDO </p>
+    <video width="1000" height="400" autoplay muted controls>
+        <source src="Video 1.mp4" type="video/mp4">
+        <source src="Video 1.mp4" type="video/ogg">
+        Tu navegador no es compatible
+    </video>
+    <P>“Creo que una de las maneras más lindas de vivir la vida es disfrutarla desde el presente y el momento de ahora”.</P>
+</header>
+
+<nav id="navigation-bar" class="navigation-bar">
+    <ul>
+        <li><a class="active" href="index.html">Inicio</a></li>
+        <li><a class="active" href="BTS.html">Más sobre BTS</a></li>
+        <li><a class="active" href="PAGINA3.html">No me interesa BTS</a></li>
+        <li class="menu__hamburger-icon">
+            <a href="javascript:void(0);" onclick="myFunction()">
+                <i class="lni lni-menu"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
